@@ -1,0 +1,47 @@
+# Model files (large, not tracked)
+*.safetensors
+*.bin
+adapter_model.safetensors
+
+# Training artifacts
+.*adapter*/
+./codellama-7b-python-adapter/
+./runs/
+./checkpoints/
+checkpoint-*/
+
+# Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Data
+*.parquet
+*.jsonl
+*.csv
+
+# Python environment
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
